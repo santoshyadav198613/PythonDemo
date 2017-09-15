@@ -3,7 +3,7 @@ students = []
 
 def read_file():
     try:
-        f= open("students.txt","r")
+        f = open("students.txt", "r")
         for student in f.readlines():
              students.append(student)
         f.close()
